@@ -1,0 +1,390 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:1340px;
+	margin:0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_container{
+	display:flex;
+	flex-wrap:wrap;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+/* Flex Items Starts */
+.flex_item-1{
+	width:8.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item-2{
+	width:16.66%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item-3{
+	width:25%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item-4{
+	width:33.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item-5{
+	width:41.66%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item-6{
+	width:50%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item-7{
+	width:58.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item-8{
+	width:66.66%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item-9{
+	width:75%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item-10{
+	width:83.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item-11{
+	width:91.66%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item-12{
+	width:100%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+/* Flex Items Ends */
+/* Header Starts */
+.header{
+	background-color:black;
+	padding:15px 0;
+	width:auto;
+}
+/* Logo Starts */
+.logo{
+	background-color:red;
+	height:50px;
+	width:auto;
+}
+/* Logo Ends */
+/* Nav Bar Starts */
+.nav_bar{
+	background-color:red;
+	height:50px;
+	width:auto;
+}
+/* Nav Bar Ends */
+/* Button Starts */
+.btn{
+	background-color:red;
+	height:50px;
+	width:auto;
+}
+/* Button Ends */
+
+/* Header Ends */
+
+/* Banner Section Starts */
+.banner_section{
+	background-color:red;
+	padding:50px 0;
+	width:auto;
+}
+.banner_content{
+	background-color:black;
+	height:450px;
+	width:auto;
+}
+/* Banner Section Ends */
+/* logo Section Starts */
+.logo_section{
+	background-color:black;
+	padding:20px;
+	width:auto;
+	height:100px;
+}
+.logo-1{
+	background-color:red;
+	height:50px;
+	width:auto;
+}
+/* logo Section Ends */
+/* About Section Starts */
+.about_section{
+	background-color:red;
+	padding:30px 0;
+	width:auto;
+}
+.about_content{
+	background-color:black;
+	width:auto;
+	height:300px;
+}
+.about_card_section{
+	background-color:black;
+	width:auto;
+	height:300px;
+	padding:20px;
+}
+.about_card{
+	background-color:red;
+	width:auto;
+	height:122px;
+	margin-bottom:15px;
+}
+/* About Section Ends */
+/*Company Achievement Section Starts*/
+.company_achievements{
+	background-color:black;
+	padding:20px 0;
+	width:auto;
+}
+.achievement_card{
+	background-color:red;
+	width:auto;
+	height:120px;
+}
+/* Company Achievement Section Ends */
+/* Infomation Section Starts */
+.information_section{
+	background-color:red;
+	padding:35px 0;
+	width:auto;
+}
+.info_button{
+	background-color:black;
+	width:auto;
+	height:110px;
+}	
+	/* Info Content starts */
+.information_content{
+	padding:35px 0 0;
+}
+.info_content{
+	background-color:black;
+	width:auto;
+	height:400px;
+}
+.info_img{
+	background-color:black;
+	width:auto;
+	height:400px;
+}
+
+	/* Info Content Ends */
+/* Infomation Section Ends */
+/* Services Section Starts */
+.services_section{
+	background-color:black;
+	padding:30px 0;
+}
+.services_header{
+	background-color:red;
+	width:auto;
+	height:80px;
+}
+.services_content{
+	padding:30px 0 0;
+}
+.services_card{
+	background-color:red;
+	width:auto;
+	height:180px;
+	margin-bottom:15px;
+}
+/* Services Section Ends */
+/* Portfolio Section Starts */
+.portfolio_section{
+	background-color:red;
+	width:auto;
+	padding:25px;
+}
+.portfolio_header{
+	background-color:black;
+	width:auto;
+	height:80px;
+}
+
+.portfolio_img_section{
+	padding:25px 0 0;
+}
+.portfolio_img{
+	background-color:black;
+	height:250px;
+	margin-bottom:25px;
+}
+/* Portfolio Section Ends */
+/* Testimonial Section Starts */
+.testimonial_section{
+	background-color:black;
+	padding:25px 0;
+}
+.testimonial_header{
+	background-color:red;
+	width:auto;
+	height:80px;
+}
+.testimonial_content{
+	padding:25px 0 0;
+}
+.testimonial_card{
+	background-color:red;
+	width:auto;
+	height:300px;
+}
+/* Testimonial Section Ends */
+/* Pricing Section Starts */
+.pricing_section{
+	background-color:red;
+	padding:25px 0;
+}
+.pricing_header{
+	background-color:black;
+	width:auto;
+	height:80px;
+}
+.pricing_card_section{
+	padding:25px 0 0;
+}
+.pricing_card{
+	background-color:black;
+	width:auto;
+	height:440px;
+}
+/* Pricing Section Ends */
+/* FAQ Section Starts */
+.faq_section{
+	background-color:black;
+	padding:30px 0 0;
+}
+.faq_header{
+	background-color:red;
+	width:60%;
+	margin:0 auto;
+	height:90px;
+}
+.faq_content_section{
+	padding:15px 0;
+}
+.faq_content{
+	background-color:red;
+	height:40px;
+	margin-bottom:12px;
+}
+/* FAQ Section Ends */
+/* Teams Section Starts */
+.teams_section{
+	background-color:red;
+	padding:25px 0;
+}
+.teams_header{
+	background-color:black;
+	height:100px;
+}
+.teams_card_section{
+	background-color:red;
+	padding:25px 0 0;
+}
+.teams_card{
+	background-color:black;
+	height:340px;
+}
+/* Teams Section Ends */
+/* Contact Section Starts */
+.contact_section{
+	background:black;
+	padding:25px 0;
+}
+.contact_header{
+	background-color:red;
+	height:100px;
+}
+.contact_contents{
+	padding:30px 0 0;
+}
+.address{
+	background-color:red;
+	height:120px;
+	margin-bottom:14px;
+}
+.email{
+	background-color:red;
+	height:150px;
+}
+.call{
+	background-color:red;
+	height:150px;
+}
+.contact_form{
+	background-color:red;
+	height:280px;
+	margin-bottom:14px;
+}
+/* Contact Section Ends */
+/* Footer Section Starts */
+.footer_section{
+	background-color:red;
+	padding:25px 0;
+}
+.details{
+	background-color:black;
+	height:140px;
+}
+.usefull_link{
+	background-color:black;
+	height:180px;
+}
+.newsletter{
+	background-color:black;
+	height:120px;
+}
+	/* Footer Bottom Section Starts */
+.footer_bottom{
+	padding:25px 0 0;
+
+}
+.copyrights{
+	background-color:black;
+	height:100px;
+}
+.icons{
+	background-color:black;
+	height:100px;
+}
+	/* Footer Bottom Section Ends */
+/* Footer SEction Ends */
